@@ -1,4 +1,4 @@
-;(function(obj, window, document, undefined){
+;(function(ns, window, document, undefined){
     var fextend = function(f, a){
         f.prototype = Object.create(this.prototype);
         for (var k in a) {
@@ -16,7 +16,7 @@
         };
         return fextend.call(this, f, a);
     };
-    var zero = window['olamedia'] || {
+    var zero = ns['olamedia'] || {
         isUndefined: function(v){
             return 'undefined' === typeof v;
         },
@@ -59,6 +59,6 @@
 	        return Math.round(zero.microtime());
         }
     };
-    obj['olamedia'] = zero;
+    ns['olamedia'] = zero;
 
 })(this, window, window.document);
