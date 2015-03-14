@@ -59,6 +59,6 @@
 	        return Math.round(zero.microtime());
         }
     };
-    obj['zero'] = zero;
+    obj['olamedia'] = zero;
 
 })(this, window, window.document);
