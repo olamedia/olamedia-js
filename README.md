@@ -1,2 +1,3 @@
-# zero-js
-Base object to use/extend
+# olamedia-js
+
+Namespace object, some basic methods
