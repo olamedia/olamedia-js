@@ -16,7 +16,7 @@
         };
         return fextend.call(this, f, a);
     };
-    var zero = window['zero'] || {
+    var zero = window['olamedia'] || {
         isUndefined: function(v){
             return 'undefined' === typeof v;
         },
